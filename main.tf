@@ -21,5 +21,6 @@ resource "aws_instance" "web" {
   tags = {
     Name = "HelloWorld"
     Team = "Test"
+    custom = "tag"
   }
 }
